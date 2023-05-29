@@ -1,4 +1,22 @@
-<div class="container mb-5  mt-5">
-  <h1>Mon {{title}}</h1>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" [routerLink]="['']">{{title}}</a>
+    <button class="navbar-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" [routerLink]="['/home']">Acceuil</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" [routerLink]="['/hotels']">Liste Hotels</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="mt-5">
+  <router-outlet></router-outlet>
 </div>
-<app-hotel-list></app-hotel-list>
+
