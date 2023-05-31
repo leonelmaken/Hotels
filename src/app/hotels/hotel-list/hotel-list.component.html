@@ -44,7 +44,10 @@
         <div class="d-flex justify-content-between align-items-baseline">
               <app-star-rating [rating]="hotel.rating"
              (starRatingCliked)="receiveRatingClicked($event)"></app-star-rating>
-             <span class="material-icons bg-info text-white p-2 rounded-circle btn" [routerLink]="['/hotels',hotel.hotelId]">
+             <span class="material-icons bg-primary text-white p-2 rounded-circle btn" [routerLink]="['/hotels',hotel.Id,'edit']">
+                  edit
+             </span>
+             <span class="material-icons bg-info text-white p-2 rounded-circle btn" [routerLink]="['/hotels',hotel.Id]">
                   keyboard_arrow_right
              </span>
         </div>

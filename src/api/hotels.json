@@ -5,7 +5,7 @@
         "description":"Sous les iles de Karaibes venez découvrir des expériences nouvelles",
         "price":230.5,
         "imageUrl":"assets/images/cham1.jpg",
-        "rating" : 3.5
+        "rating" : 2
     },
     {
         "hotelId":2,
@@ -13,7 +13,7 @@
         "description":"Découvrez une expérience unique sur ile de Borabora",
         "price":530.5,
         "imageUrl":"assets/images/cham2.jpg",
-        "rating ": 4.6
+        "rating ": 5
     },
     {
         "hotelId":3,
@@ -29,7 +29,7 @@
         "description":"venez revivre l'histoire de Rome antique",
         "price":430.5,
         "imageUrl":"assets/images/cham4.jpg",
-        "rating" : 4.5
+        "rating" : 4
     },
     {
         "hotelId":5,
@@ -37,7 +37,7 @@
         "description":"Venez découvrir l'antiquité de l'égypte antique",
         "price":590.5,
         "imageUrl":"assets/images/cham5.jpg",
-        "rating" : 3.5
+        "rating" : 3
     },
     {
         "hotelId":6,
